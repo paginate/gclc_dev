@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+
+<body>
+	{% include header.html %}
+	
+	<div class="main_container">
+            {% if page.carousel %}
+            <div class="flexslider">
+            <ul class="slides">
+                {% for slides in page.carousel %}
+                <li>
+                <img src="{{ slides.image }}">
+                </li>
+                {% endfor %}
+            </ul>
+            </div>
+            {% endif %}
+	
+            <main>
+                    <article>
+                            {{ content }}
+                    </article>
+            </main>
+        </div>
+        {% include footer.html %}
+</body>
+
+</html>

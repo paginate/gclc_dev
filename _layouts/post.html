@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<h2>{{ page.title }}</h2>
+<time>{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</time>
+
+{% if page.carousel %}
+<div class="flexslider">
+<ul class="slides">
+    {% for slides in page.carousel %}
+    <li>
+    <img src="{{ slides.image }}" width=800px>
+    </li>
+    {% endfor %}
+</ul>
+</div>
+{% endif %}
+
+{{ content }}
