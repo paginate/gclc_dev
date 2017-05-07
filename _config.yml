@@ -16,7 +16,7 @@
 title: Grace Chinese Lutheran Church
 email: 
 baseurl: "/gclc_dev"
-url: "paginate.github.io"
+#url: "paginate.github.io"
 #twitter_username: jekyllrb
 #github_username:  jekyll
 
