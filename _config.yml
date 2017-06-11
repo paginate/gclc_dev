@@ -16,14 +16,14 @@
 title: Grace Chinese Lutheran Church
 email: 
 baseurl: "/gclc_dev"
-#url: "paginate.github.io"
+url: "paginate.github.io"
 #twitter_username: jekyllrb
 #github_username:  jekyll
 
 sass:
   sass_dir: _sass
 
-include: ['_pages', 'images']
+include: ['_pages']
   
 # Build settings
 markdown: kramdown
