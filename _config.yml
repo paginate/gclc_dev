@@ -23,7 +23,7 @@ baseurl: "/gclc_dev"
 sass:
   sass_dir: _sass
 
-include: ['_pages']
+include: ['_pages', 'images']
   
 # Build settings
 markdown: kramdown
