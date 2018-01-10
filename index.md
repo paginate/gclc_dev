@@ -4,8 +4,8 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: default
 carousel:
-  - image: /images/carousel/slide1.jpeg
-  - image: /images/carousel/slide2.jpg
+  - image: /gclc_dev/images/carousel/slide1.jpeg
+  - image: /gclc_dev/images/carousel/slide2.jpg
 ---
 
 <div class="home">
