@@ -28,16 +28,14 @@ include: ['_pages']
 # Build settings
 markdown: kramdown
 theme: minima
-gems:
+plugins:
   - jekyll-feed
 exclude:
   - Gemfile
   - Gemfile.lock
-
+  
 defaults:
   -
-    scope:
-      path: "_slides" 
     values:
       layout: "iframe"
 

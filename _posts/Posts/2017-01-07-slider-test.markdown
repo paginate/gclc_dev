@@ -1,11 +1,15 @@
 ---
-layout: post
-title:  "Let's build a Carousel!"
-date: 2017-01-07 21:40:10
-categories: jekyll demo blog carousel
-carousel:
-  - image: /gclc_dev/images/carousel/slide1.jpeg
-  - image: /gclc_dev/images/carousel/slide2.jpg
+layout: default
+title: "Making a Slideshow!!!"
 ---
 
-Lorem ipsum dolor sit amet, consectetur...
+making a slideshow!
+
+<section class="main-slides">
+    <article class="slide">
+        <iframe class="slideshow-iframe" src="{{site.baseurl}}/images/index_slider.html"></iframe>
+        <div class="sub-slideshow">
+            <h1>{{ slide.title }}</h1>
+        </div>
+    </article>
+</section>
