@@ -6,17 +6,28 @@ layout: default
 ---
 
 <div class="home">
+    <section class="main-slides">
+        <article class="slide">
+            <iframe class="slideshow-iframe" src="{{site.baseurl}}/images/index_slider1.html"></iframe>
+            <div class="sub-slideshow">
+            <h1>{{ slide.title }}</h1>
+            </div>
+        </article>
+    </section>
 
-  <h1 class="page-heading">Posts</h1>
-
+  <h2 class="page-heading">Welcome to Grace Chinese Lutheran Church</h2>
+  
+  <div class="homepageTextBox">Sunday Worship Service at 11:00 am!</div>
+    
+  <h3>Latest News</h3>
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-        <h2>
+        <h4>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
-        </h2>
+        </h4>
       </li>
     {% endfor %}
   </ul>
