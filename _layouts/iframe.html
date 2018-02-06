@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-  {% include head.html %}
-  <link type="text/css" rel="stylesheet" href="{{ site.baseurl }}/lightslider/dist/css/lightslider.css" />
-  <script src="{{ site.baseurl }}/lightslider/dist/js/lightslider.js"></script>
-  <style>
-    body {
-      margin: 0;
-      overflow-x: hidden;
-    }
-    img {
-        width: 100%
-    }
-  </style>
+    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+
+    <link type="text/css" rel="stylesheet" href="{{ site.baseurl }}/lightslider/dist/css/lightslider.css" />
+    <script src="{{ site.baseurl }}/lightslider/dist/js/lightslider.js"></script>
+    <style>
+        body {
+            margin: 0;
+            overflow-x: hidden;
+        }
+        img {
+            width: 100%
+        }
+    </style>
 </head>
+
 <body>
 {{ content }}
 <script type="text/javascript"> 
