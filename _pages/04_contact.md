@@ -27,5 +27,3 @@ permalink: /contact/
 <br>
     
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2684.088749367489!2d-122.32393168487789!3d47.7215265880258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549011417d99d9ed%3A0x2f173776603a2852!2sGrace+Chinese+Lutheran+Church!5e0!3m2!1sen!2sus!4v1475900707443"></iframe>
-
-<iframe src="https://goo.gl/maps/2L1QFS35vhv" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
