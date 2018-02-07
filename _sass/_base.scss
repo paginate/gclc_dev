@@ -9,6 +9,11 @@ $heading-font-color: #999;
 $light: #E7EDF4;
 $header: #35353D;
 
+$iframe-height: 400px;
+$iframe-dotheight: 50px;
+$iframe-imgheight: #{$iframe-height - $iframe-dotheight};
+
+
 *,
 *::before,
 *::after {
