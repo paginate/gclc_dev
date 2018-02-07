@@ -10,7 +10,7 @@ calendar: true
   {% for event in site.posts %}
     {% if event.categories contains 'events' %}
       <li>
-        <a href="{{ event.url }}">{{ event.title }}</a>
+        <a href="{{ event.url  | prepend: site.baseurl }}">{{ event.title }}</a>
       </li>
     {% endif %}
   {% endfor %}
